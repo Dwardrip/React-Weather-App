@@ -1,6 +1,13 @@
 .App {
   font-family: sans-serif;
   text-align: center;
+  border: dotted;
+  background-color: rgb(192, 230, 230, 0.3);
+  border-width: 10px 4px;
+  border-radius: 20px 40px;
+  padding: 50px 20px;
+  border-color: rgb(112, 11, 104);
+  box-shadow: 15px 15px 20px rgba(178, 176, 184, 0.6);
 }
 
 body {
@@ -13,18 +20,14 @@ h1 {
   text-align: center;
   color: rgb(112, 11, 104);
   font-weight: bold;
+  font-size: 35px;
 }
 
-h2,
 h3 {
   left: 0px;
   padding: 0 30px;
   padding-top: 5px;
   font-size: 20px;
-}
-
-h3 {
-  padding-bottom: 5px;
 }
 
 h4 {
@@ -36,26 +39,6 @@ li {
   list-style: none;
 }
 
-.container {
-  padding: 30px 30px;
-}
-
-.card {
-  border: dotted;
-  background-color: rgb(192, 230, 230, 0.3);
-  border-width: 10px 4px;
-  border-radius: 20px 40px;
-  padding: 50px 20px;
-  border-color: rgb(112, 11, 104);
-  box-shadow: 15px 15px 20px rgba(178, 176, 184, 0.6);
-}
-
-.location {
-  text-align: center;
-  margin: 0 auto;
-  padding: 20px 20px;
-}
-
 .temperature {
   font-size: 50px;
   line-height: 1;
@@ -63,7 +46,7 @@ li {
 }
 
 .weather-temperature {
-  float: right;
+  text-align: center;
   padding-top: 30px;
 }
 
@@ -77,21 +60,21 @@ li {
   text-decoration: none;
 }
 
-.weather-icon {
-  margin: 0px 10px 20px;
-  bottom: 25px;
-  position: relative;
-}
-
 .weather-temperature .units {
   position: relative;
   font-size: 16px;
   font-weight: bold;
   top: -1px;
+  padding-bottom: 15px;
+}
+
+.weather-icon {
+  float: left;
 }
 
 .description {
-  padding-bottom: 20px;
+  text-align: center;
+  padding-bottom: 5px;
 }
 
 .description::first-letter {
@@ -101,7 +84,6 @@ li {
 .weather-detail {
   font-size: 15px;
   padding-top: 30px;
-  float: left;
 }
 
 .weather-forecast {
@@ -123,19 +105,8 @@ li {
   opacity: 0.5;
 }
 
-
 .codeOwner {
-
   text-align: center;
-}
-
-#myVideo {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
-  overflow: hidden;
 }
 
 #overview {
