@@ -90,10 +90,11 @@ export default function Weather(props) {
                 alt={weather.description}
                 className="weather-icon"
               />
-            </div>
-            <div>
+            
+            <span>
               <WeatherTemperature celsius={weather.temperature} />
-            </div>
+            </span>
+                  </div>
           </div>
           <div className="col-6 weather-detail">
             <ul>
