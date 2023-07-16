@@ -1,16 +1,20 @@
-import React from "react";
-import Weather from "./Weather";
-import FormattedDate from "./FormattedDate";
+import Weather from "./Weather"
+import './App.css';
 
-import "./index.css";
+
 
 export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <FormattedDate date={new Date()} />
-        <Weather city="Gingelom" />
-      </header>
+      <div className="container">
+    
+       <h1>Weather App</h1>
+       
+       <Weather defaultCity="Gingelom"/>
     </div>
+    </div>
+
   );
 }
+
+
