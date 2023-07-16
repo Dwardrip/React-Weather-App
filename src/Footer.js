@@ -1,17 +1,11 @@
 import React from "react";
-import "./index.css";
+import "./Footer.css"
 
 export default function Footer() {
-  return (
-    <div className="codeOwner">
-      <a
-        href="https://github.com/Dwardrip?tab=repositories"
-        target="blank"
-        className="Me"
-      >
-        Open-source code
-      </a>
-      by Danielle Wardrip
-    </div>
-  );
+
+    return (
+       <div className="Footer">
+           This project is coded by Danielle Wardrip and is <a href="https://github.com/Dwardrip/React-Weather-App" target="_blank" rel="noreferrer" >open-sourced on Github</a>  
+       </div>
+    );
 }
