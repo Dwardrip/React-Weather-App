@@ -1,3 +1,15 @@
+body {
+  padding: 40px;
+  margin: 30px auto;
+  font-family: BlinkMacSystemFont, "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+  "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+ 
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
 .App {
   font-family: sans-serif;
   text-align: center;
@@ -10,8 +22,20 @@
   box-shadow: 15px 15px 20px rgba(178, 176, 184, 0.6);
 }
 
-body {
-  padding: 40px;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+.App h1 {
+  text-align: center;
+  color: rgb(112, 11, 104);
+  font-weight: bold;
+  
 }
+
+.App h3 {
+  left: 0px;
+  padding: 5px 30px;
+  font-size: 20px;
+}
+
+.App li {
+  list-style: none;
+}
+
