@@ -1,0 +1,51 @@
+
+
+.WeatherWeeklyForecast .weather-forecast-date {
+
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.WeatherWeeklyForecast .forecast-temperature-max {
+ font-weight: bold;
+ padding-right: 10px;
+
+}
+
+.WeatherWeeklyForecast .forecast-temperature-min {
+    color: grey;
+   
+   }
+
+   @media screen and (max-width: 500px) {
+
+    .WeatherWeeklyForecast .weather-forecast-date {
+
+        font-size: 10px;
+        font-weight: bold;
+        float: none;
+        width: 100%;
+    }
+
+    .WeatherWeeklyForecast .forecast-temperature-max {
+        font-weight: bold;
+        float: none;
+        width: 100%;
+        
+       
+       }
+       
+       .WeatherWeeklyForecast .forecast-temperature-min {
+           color: grey;
+           float: none;
+           width: 100%;
+          
+          }
+
+       .WeatherWeeklyForecast img {
+        float: none;
+        width: 100%;
+
+       }   
+
+   }
